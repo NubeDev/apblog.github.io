@@ -2,9 +2,9 @@
 menu:
   Home: .
   Archives: archives
-  Categories: categories
-  Tags: tags
-  About: about
+  #Categories: categories
+  #Tags: tags
+  #About: about
 
 # Customize
 customize:
@@ -17,25 +17,25 @@ customize:
         enabled: true # Whether to show profile bar
         avatar: css/images/avatar.png
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: PPOffice
-        author_title: Web Developer & Designer
-        location: Harbin, China
-        follow: https://github.com/ppoffice/
+        author: Aidan Pickard
+        author_title: Developer & Designer
+        location: Aust
+        follow: https://github.com/NubeDev/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
+        github: http://github.com/NubeDev
         twitter: /
-        facebook: /
-        dribbble: /
-        rss: /
+  #      facebook: /
+    #    dribbble: /
+    #    rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
 # Widgets
 widgets:
-    - recent_posts
+  # - recent_posts
     - category
     - archive
     - tag
@@ -51,8 +51,8 @@ search:
 # Comment
 comment:
     disqus: hexo-theme-icarus # enter disqus shortname here
-    duoshuo: # enter duoshuo shortname here
-    youyan: # enter youyan uid here
+  #  duoshuo: # enter duoshuo shortname here
+  #  youyan: # enter youyan uid here
 
 # Share
 share: default # options: jiathis, bdshare, addtoany, default
@@ -63,13 +63,13 @@ plugins:
     justifiedgallery: true # options: true, false
     google_analytics: # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
-    baidu_analytics: # enter Baidu Analytics hash key
+  #  baidu_analytics: # enter Baidu Analytics hash key
 
 # Miscellaneous
 miscellaneous:
     open_graph: # see http://ogp.me
-        fb_app_id:
-        fb_admins:
+      #  fb_app_id:
+      #  fb_admins:
         twitter_id:
         google_plus:
     links:
