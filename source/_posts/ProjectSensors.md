@@ -2,7 +2,6 @@
 title: Project Sensors
 date: 2017-01-26 20:56:55
 tags: Arduino Sensors CO2
-
 ---
 # Working Arduino code for the Sensors
 
